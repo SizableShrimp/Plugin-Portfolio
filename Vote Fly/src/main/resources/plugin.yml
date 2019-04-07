@@ -1,0 +1,10 @@
+name: VoteFly
+main: me.sizableshrimp.VoteFly
+author: SizableShrimp
+depend: [Votifier]
+description: Allows users to fly for a certain amount of minutes when they vote.
+version: 1.0
+commands:
+   flytime:
+      description: Tells the user how much time they have left of flying because of voting.
+      usage: /flytime

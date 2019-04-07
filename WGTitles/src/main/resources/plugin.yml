@@ -1,0 +1,7 @@
+main: me.sizableshrimp.wgtitles.WGTitles
+name: WGTitles
+version: 1.0.0
+api-version: 1.13
+author:  SizableShrimp
+depend: [WorldGuard, WorldGuardEvents]
+description: Allows custom messages when entering and leaving WorldGuard regions

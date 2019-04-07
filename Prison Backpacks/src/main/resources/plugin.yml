@@ -1,0 +1,11 @@
+name: Backpacks
+main: me.sizableshrimp.backpacks.Main
+author: SizableShrimp
+depend: [TokenManager, AutoSell]
+description: Gives users upgradeable backpacks for storage using a token currency from TokenManager and allows users to sell from backpacks using AutoSell.
+version: 1.6.9
+commands:
+   bp:
+      description: Main command for Backpacks plugin.
+      usage: /bp
+      aliases: [backpack, backpacks]

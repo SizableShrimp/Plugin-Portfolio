@@ -1,0 +1,11 @@
+name: SecureStaffPlus
+main: me.sizableshrimp.Main
+author: SizableShrimp
+description: Adds a second layer of security to staff's accounts when logging into the server.
+version: 1.0
+commands:
+   login:
+      description: Forces users with permission to login if they have a pin set.
+      usage: /login <pin>
+   setpin:
+      description: Allows user

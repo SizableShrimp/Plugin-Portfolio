@@ -1,0 +1,10 @@
+name: FactionFlight
+main: me.sizableshrimp.FactionFlight
+author: SizableShrimp
+depend: [Factions]
+description: Allows users with permission to fly in their faction claims.
+version: 1.0
+commands:
+   ffly:
+      description: Toggles a player's flight in their faction claim.
+      usage: /ffly

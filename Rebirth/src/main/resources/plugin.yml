@@ -1,0 +1,10 @@
+main: me.neurashrimp.rebirth.main.Rebirth
+name: Rebirth
+version: 1.1.0
+authors: [Neuranium, SizableShrimp]
+depend: [PlaceholderAPI, ASkyBlock, DeluxeTags, PermissionsEx, Vault, SuperTrails]
+description: Allows those who have earned enough island levels to rebirth their island and gain rebirth perks.
+commands:
+  rebirth:
+    description: If sender is able to rebirth, opens the rebirth confirmation inventory.
+    usage: rebirth

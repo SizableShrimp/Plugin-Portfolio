@@ -1,0 +1,12 @@
+#How many seconds the title should stay
+TitleSeconds: 8
+#The exact name of the region (case sensitive)
+Example:
+  #Message on enter (optional)
+  Enter:
+    Title: "&aWelcome!"
+    Subtitle: "&eHave fun!"
+  #Message on leave (optional)
+  Leave:
+    Title: "&cGoodbye!"
+    Subtitle: "We hope you had a good time!"

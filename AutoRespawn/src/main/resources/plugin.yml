@@ -1,0 +1,6 @@
+name: AutoRespawn
+main: me.sizableshrimp.AutoRespawn
+author: SizableShrimp
+depend: [Essentials, EssentialsSpawn]
+description: Autorespawns players with an improved spawn method!
+version: 1.0

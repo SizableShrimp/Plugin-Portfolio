@@ -1,0 +1,21 @@
+name: ClearChat
+main: me.sizableshrimp.ClearChat
+author: SizableShrimp
+description: Uses ChatControl's commands with easier syntax!
+depend: [ChatControl]
+version: 1.0
+permissions:
+    clearchat.clear:
+        description: Gives the player the required ChatControl permission nodes.
+        children:
+            chatcontrol.commands.clear.silent: true
+            chatcontrol.commands.clear: true
+commands:
+   clearchat:
+      description: Clears the chat.
+      usage: /clearchat [-a|-s]
+      aliases: [cc]
+   chatlock:
+      description: Locks the chat.
+      usage: /chatlock [-a]
+      aliases: [cl]

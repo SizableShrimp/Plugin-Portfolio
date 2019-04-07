@@ -1,0 +1,4 @@
+#The amount of time in minutes a user gets to fly after voting (default is 10)
+#If this value is set to 0, the plugin will automatically disable.
+#If this value is negative, the default amount will be chosen.
+FlyMinutes: 10

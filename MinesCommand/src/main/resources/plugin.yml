@@ -1,0 +1,12 @@
+name: MinesCommand
+main: me.sizableshrimp.MinesCommand
+author: SizableShrimp
+description: Gives users two custom commands, /mine and /mines.
+version: 1.2.2
+commands:
+   mine:
+      description: Teleports user to the mine of their rank.
+      usage: /mine [optional mine choice]
+   mines:
+      description: Opens a mine GUI.
+      usage: /mines

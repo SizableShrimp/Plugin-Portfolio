@@ -1,0 +1,10 @@
+name: StaffOnline
+main: me.sizableshrimp.StaffOnline
+version: 1.5
+author: SizableShrimp
+description: Allows any player with permission to get the staff currently online. This is compatible with SuperVanish, so if you are in vanish it will not show you on the list.
+softdepend: [SuperVanish, PremiumVanish]
+commands:
+   staff:
+      description: Shows the player the staff currently online.
+      usage: /staff [reload]

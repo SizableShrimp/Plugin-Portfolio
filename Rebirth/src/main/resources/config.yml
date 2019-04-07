@@ -1,0 +1,85 @@
+#The message to display for rebirth
+#Placeholders
+#Player name - %playername%
+#Rebirth level - %rebirthlevel%
+RebirthMessage: "&eCongratulations, %playername%! Your island has been reborn and you are now Rebirth %rebirthlevel%."
+
+#The levels at which to allow rebirth. This list will be used in numerical order from least to greatest.
+#The smallest number will be the first level of rebirth, the next smallest number will be the second level, and so on.
+#The highest number is the level at which the last rebirth is available.
+#Commas cannot be used here. If you want separation use _.
+RebirthLevels:
+  - 10_000
+  - 25_000
+  - 50_000
+  - 75_000
+  - 100_000
+  - 250_000
+  - 500_000
+  - 1_000_000
+
+#The format for players and team members of an island which has been reborn.
+#This format is accessible through Placeholder API with {rebirth_format}
+#This also works in EssentialsChat with {rebirth_format}
+Format: "&7[&b%rebirthlevel%&7]"
+
+#Whether or not to insert a space into the rebirth format
+InsertFormatSpace: true
+
+#If InsertFormatSpace is false, this does nothing.
+#Otherwise, if this is true, the space will prefix the format.
+#If this is false, the space will suffix the format.
+PrefixFormatSpace: false
+
+#This will increase the modifier of the island levels by this amount for each rebirth.
+#For example, if it was 0.1 then rebirth 1 would be 1.1 modifier and rebirth 2 would be 1.2 modifier, etc.
+#This modifier is multiplied by the island's level amount whenever they level up.
+IslandLevelModifier: 0.1
+
+#Rewards for each rebirth
+Rewards:
+  1:
+    #Permissions to give to the user upon rebirth
+    Permissions:
+      - trail.allow
+      - trail.rainbow
+
+    #Effects for the user to have indefinitely
+    #Format is potion type and level
+    #See http://docs.codelanx.com/Bukkit/1.8/org/bukkit/potion/PotionEffectType.html for the different types of potion types to put here
+    Effects:
+      - FAST_DIGGING 1
+
+    #Commands to run as the console here.
+    Commands:
+      - eco give %playername% 50000
+
+    #Names of tags in DeluxeTags to give to the user.
+    #This does not actually create a tag but only gives the user the pre-made tag.
+    #If it does not exist then nothing happens.
+    Tags:
+      - Reborn
+  2:
+    Permissions:
+      - essentials.fly
+      - trail.rains
+
+    Effects:
+      - STRENGTH 1
+
+    Commands:
+      - help
+
+    Tags:
+  3:
+    Permissions:
+      - trail.wings
+
+    Effects:
+      - SPEED 1
+
+    Commands:
+      - help
+
+    Tags:
+      - Ascended

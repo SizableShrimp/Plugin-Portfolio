@@ -1,0 +1,6 @@
+name: StaffAFKVanish
+main: me.sizableshrimp.StaffAFKVanish
+author: SizableShrimp
+depend: [Essentials]
+description: Automatically puts a staff member with permission to use /vanish into vanish when they go AFK.
+version: 1.4

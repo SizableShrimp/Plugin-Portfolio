@@ -1,0 +1,29 @@
+#EnabledWorlds allows you to add/remove worlds. If a world is on this list, 
+#when a player mines blocks and their inventory is full, the blocks automatically go inside of a backpack if they have one. 
+#If a world is not in this list, no items will go into a backpack in that world.
+EnabledWorlds:
+- world
+#If an item is in this list, it will go into a player's backpack if their inventory is full.
+#If an item is not in this list, it will not go into a player's backpack at all.
+#To find the correct item name of an item, hover over it. Look at "minecraft:(item name here)" on the item.
+#The item name in that spot is what goes here, but in all caps.
+EnabledItems:
+- DIAMOND
+- DIAMOND_BLOCK
+#If enabled, when a player sells to a shop and has a backpack, it will automatically sell the items in their backpack as well.
+#If disabled, when a player sells to a shop and has a backpack, their backpack will not change.
+SellBackpackItems: true
+#The price to buy a backpack. Currency is in tokens from TokenManager.
+backpackPrice: 300
+#The price to upgrade a backpack X amount of slots using upgradeslot1. Currency is in tokens from TokenManager.
+upgradeprice1: 50
+#The price to upgrade a backpack X amount of slots using upgradeslot2. Currency is in tokens from TokenManager.
+upgradeprice2: 100
+#The price to upgrade a backpack X amount of slots using upgradeslot3. Currency is in tokens from TokenManager.
+upgradeprice3: 150
+#The number of slots to upgrade a backpack when clicking on the orange glass pane.
+upgradeslot1: 1
+#The number of slots to upgrade a backpack when clicking on the yellow glass pane.
+upgradeslot2: 4
+#The number of slots to upgrade a backpack when clicking on the light green/lime glass pane.
+upgradeslot3: 9
