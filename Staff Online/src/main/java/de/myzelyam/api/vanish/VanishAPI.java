@@ -1,3 +1,4 @@
+//not made by SizableShrimp
 package de.myzelyam.api.vanish;
 
 import de.myzelyam.supervanish.SuperVanish;
